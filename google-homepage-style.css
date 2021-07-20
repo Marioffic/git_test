@@ -1,4 +1,58 @@
 
-    h2{
-      background: red;
-    }
+
+  .blue{
+    color: blue;
+    
+ }
+
+  .red{
+    color: red;
+  }
+
+  .yellow{
+    color: rgb(255, 219, 88);
+  }
+  
+  .green{
+    color: green;
+  }
+
+  .rotate {
+    display: inline-block;
+    transform:rotate(-20deg);
+  }
+  #Search-bar {
+    border-radius: 25px;
+    position: absolute;
+    left: 280px;
+    transform: scale(1.6);
+    padding-left: 200px;
+    
+    
+  }
+  .center {
+    padding-top: 290px ;
+    padding-left: 300px ;
+    font-size: 92px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .grid-container {
+    font-size: 12px;
+    display: Grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-column-gap: 88px;
+    ;
+  }
+  button-container {
+    display:grid;
+    top: 100px;
+    grid-template-columns: 100px 100px ;
+  }
+
+
+
