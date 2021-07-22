@@ -2,19 +2,25 @@
 
   .blue{
     color: blue;
+    font-family: 'Product Sans';
+    font-weight: 400;
     
  }
 
   .red{
     color: red;
+    font-weight: 400;
   }
 
   .yellow{
     color: rgb(255, 219, 88);
+    font-weight: 400;
   }
   
   .green{
     color: green;
+    font-weight: 400;
+    font-family: arial;
   }
 
   .rotate {
@@ -27,6 +33,7 @@
     left: 280px;
     transform: scale(1.6);
     padding-left: 200px;
+    top: 520px;
     
     
   }
@@ -48,10 +55,15 @@
     grid-column-gap: 88px;
     ;
   }
-  button-container {
-    display:grid;
-    top: 100px;
-    grid-template-columns: 100px 100px ;
+  .button-contaier {
+    display: inline-grid;
+    grid-template-columns: 155px 155px;
+    grid-column-gap: 55px;
+    -moz-appearance:none;
+  }
+  footer {
+    top: 55px;
+    -moz-appearance: none;
   }
 
 
